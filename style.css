@@ -1,0 +1,11 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.hero{
+    background-image: url('Images/victor-freitas-WvDYdXDzkhs-unsplash.jpg');
+    height: 720px;
+    background-size: cover;
+    filter: brightness(60%);
+}
