@@ -1,32 +1,5 @@
 body{
     padding: 0px;
     margin: 0px;
-}
-
-.hero{
-    background-image: url('Images/victor-freitas-WvDYdXDzkhs-unsplash.jpg');
-    height: 720px;
-    background-size: cover;
-}
-
-.navbar{
-    height: 64px;
-    width: auto;
-    background-color: #000;
-}
-
-.logo{
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-.logo img{
-    height: 28px;
-}
-
-.logo p{
-    color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 18px;
+    background-image: url('Images/abs-1850926_1280.jpg');
 }
