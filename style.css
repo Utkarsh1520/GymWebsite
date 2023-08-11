@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
 
 body{
-    padding: 16px;
     margin: 0px;
     background-image: url('Images/young-fitness-man-studio.jpg');
     background-size: cover;
@@ -12,6 +11,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 24px;
 }
 
 .logo{
@@ -44,6 +44,11 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.pages ul:hover{
+    color: grey;
+    cursor: pointer;
+}
+
 .Contact button{
     height: 36px;
     width: 124px;
@@ -54,6 +59,11 @@ body{
     border-radius: 8px;
     background-color: white;
 }
+.Contact button:hover{
+    background-color: grey;
+    color: white;
+    border:none;
+}
 
 .herocontent{
     margin-left: 64px;
@@ -61,7 +71,7 @@ body{
 
 .herocontent h1{
     font-family: Rubik Mono One;
-    font-size: 64px;
+    font-size: 116px;
     color: white;
     margin-bottom: 0px;
     -webkit-text-stroke: 3px white;
@@ -71,7 +81,19 @@ body{
 
 .herocontent p{
     font-family: Rubik Mono One;
-    font-size: 36px;
+    font-size: 48px;
     color: white;
     margin-top: 0px;
+}
+
+.footer{
+    margin-top: 264px;
+    height: 64px;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
