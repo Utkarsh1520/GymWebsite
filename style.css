@@ -63,6 +63,7 @@ body{
     background-color: grey;
     color: white;
     border:none;
+    cursor: pointer;
 }
 
 .herocontent{
@@ -96,4 +97,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.sideimage img{
+    height: 102px;
 }
